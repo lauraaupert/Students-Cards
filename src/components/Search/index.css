@@ -1,0 +1,15 @@
+.search-form{
+    border: none !important; 
+    border-bottom: 1px solid lightgray !important; 
+    border-radius: 0px !important; 
+    padding-left: 0 !important; 
+    padding-top: 10px !important;
+    font-family: Raleway !important; 
+}
+
+.search-form:focus {
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+    border-color: black !important;
+}

@@ -1,0 +1,24 @@
+.tag{
+    border: none !important; 
+    border-bottom: 1px solid grey !important; 
+    width: 20% !important; 
+    margin-left: 140px !important; 
+    border-radius: 0px !important; 
+    margin-bottom: 15px !important; 
+    padding: 0 !important; 
+    font-family: Raleway !important; 
+    font-size: 12px !important;
+}
+.tag:focus {
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+    border-color: black !important;
+}
+.badge {
+    margin-right: 3px; 
+    color: black !important; 
+    font-family: Raleway; 
+    opacity: 0.7;
+}
+

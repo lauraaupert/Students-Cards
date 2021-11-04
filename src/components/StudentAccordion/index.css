@@ -1,0 +1,35 @@
+.accordion-button::after {
+    height: 5rem !important;
+    background-size: 1.4rem !important;
+    background-image: url("https://www.iconbunny.com/icons/media/catalog/product/cache/2/thumbnail/600x/1b89f2fc96fc819c2a7e15c7e545e8a9/2/1/2103.11-cross-plus-icon-iconbunny.jpg") !important;
+}
+.accordion-button:not(.collapsed)::after {
+    background-size: 1.2rem !important;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOOGF2YV2tkMnO2cePvFOIK_bq8PI7BvwdtZYvFyQCITi8bx3qyB2wjnc99zsnwlMt7wA&usqp=CAU") !important;
+    transform: none !important;
+}
+.accordion-button:not(.collapsed) {
+    color: black !important;
+    background-color: white !important;
+}
+.accordion-button {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.accordion-button:focus {
+    box-shadow: 0 0 0 0rem !important;
+}
+.accordion {
+    padding: 0 !important;
+}
+.accordion-item {
+    border: none !important;
+    border-bottom: 1px solid rgba(0,0,0,.125) !important;
+    border-radius: 0px !important;
+}
+.accordion-body {
+    margin-left: 140px; 
+    font-family: 'Raleway'; 
+    font-size: 12px; 
+    color: grey;
+}
