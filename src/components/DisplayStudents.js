@@ -12,10 +12,10 @@ function DisplayStudents() {
         {/* Map each student to a row */}
           {students.list.map(student => {
             //Create a variable to calculate student's average
-              let average = student.grades.reduce((a, b) => Number(a) + Number(b)) / student.grades.length;
+              // let average = student.grades.reduce((a, b) => Number(a) + Number(b)) / student.grades.length;
               return(
                 <Row key={student.id}>
-                  <StudentAccordion student={student} average={average}/>
+                  <StudentAccordion student={student}/>
                 </Row>
               )
           })

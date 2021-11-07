@@ -18,7 +18,7 @@ function StudentAccordion(props) {
                         pic={props.student.pic}
                         email={props.student.email}
                         company={props.student.company}
-                        average={`${props.average}%`}
+                        average={`${props.student.average}%`}
                         skill={props.student.skill}
                     />
                 </Accordion.Header>
