@@ -6,7 +6,7 @@ function StudentCard(props) {
     return (
         <Row>
             <Col style={{alignSelf: "center"}} xs={2}>
-                <Card.Img border="1px" class="rounded-circle" src={props.pic} height="90px" width="90px" style={{borderColor: "lightgrey"}}/>
+                <Card.Img border="1px" src={props.pic} style={{borderColor: "lightgrey", borderRadius: "50%", height: "90px", width: "90px"}}/>
             </Col>
             <Col md={10}>
                 <Card.Body style={{marginLeft: "20px"}}>
